@@ -1,17 +1,21 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
-* main - prints Holberton, followed by a new line.
-*
-* Return: 0 (Success)
-*/
-
-
+ * main - main block
+ * Description: Write a program that prints _putchar, followed by a new line
+ * Return: 0
+ */
 int main(void)
 {
-	char *holberton;
+	char c[8] = "_putchar";
 
-	for (holberton = "Holberton\n"; *holberton != '\0'; ++holberton)
-		_putchar(*holberton);
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(c[i]);
+
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
