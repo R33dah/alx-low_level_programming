@@ -1,8 +1,11 @@
 #include "main.h"
 
+
 /**
- * _isalpha - check for lower case letter
+ * _isalpha - function that checks for lowercase character.
+ *
  * @c : character to check
+ *
  * Return 0 or 1.
  */
 int _isalpha(int c)
