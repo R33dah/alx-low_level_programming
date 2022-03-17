@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _isdigit - check if arg is digit or not
+ * @c: variable that accepts the arg
+ * Return: Always 0 (Success)
  */
-int main(void)
+int _isdigit(int c)
 {
-    char c;
-
-    c = '0';
-    printf("%c: %d\n", c, _isdigit(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
-    return (0);
+	if (c >= 48 && c <= 57)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	return (0);
 }
