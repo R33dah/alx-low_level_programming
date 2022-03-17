@@ -1,26 +1,25 @@
-#include "mainn.h"
+#include "main.h"
 
 /**
-  * more_numbers - Print 10 times the numbers since 0 up to 14
-  *
-  * Return: 10 times of the numbers since 0 up to 14
-  */
-void more_numbers(void)
+ * print_most_numbers - prints all single digit number
+ * except 2 and 4
+ * Return: Always 0 (Success);
+ */
+void print_most_numbers(void)
 {
-	int x, y;
+	int i;
 
-	for (x = 0; x < 10; x++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (y = 0; y <= 14; y++)
+		if (i == 50)
 		{
-			if (y > 9)
-			{
-				_putchar((y / 10) + '0');
-			}
-
-			_putchar((y % 10) + '0');
+			continue;
 		}
-
-		_putchar('\n');
+		else if (i == 52)
+		{
+			continue;
+		}
+		_putchar(i);
 	}
+	_putchar('\n');
 }
