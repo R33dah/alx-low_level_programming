@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * _isdigit - check if arg is digit or not
 * @c: variable that accepts the arg
