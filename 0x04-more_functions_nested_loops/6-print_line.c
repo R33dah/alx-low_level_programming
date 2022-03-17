@@ -1,25 +1,23 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints all single digit number
- * except 2 and 4
- * Return: Always 0 (Success);
+ * print_line - draws a straight line in the terminal
+ * @n: number of times the character _ should be printed
  */
-void print_most_numbers(void)
+void print_line(int n)
 {
-	int i;
-
-	for (i = 48; i <= 57; i++)
+	if (n <= 0)
 	{
-		if (i == 50)
+		_putchar('\n');
+	} else
+	{
+		int i;
+
+		for (i = 1; i <= n; i++)
 		{
-			continue;
+			_putchar('_');
 		}
-		else if (i == 52)
-		{
-			continue;
-		}
-		_putchar(i);
+		_putchar('\n');
 	}
-	_putchar('\n');
+
 }
