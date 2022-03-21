@@ -1,20 +1,11 @@
-#include "main_h" 
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[.[C[C[
+#include "main.h"
 
 /**
-
- *reset_to_98- function that takes a pointer to an int as paramete[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr
-
- * and updates the value it points to to 98.
- *
- *@n: mumber.
- *
+ * reset_to_98 - change the value of integer using pointer
+ * @n: pointer
+ * Return:void
  */
-
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-
-[A[A[([*n = 98;)[D
-
-[A[A[C[C[C[C[C[C[C[C
-[D[D[D[A[A[C[C[B[B[C[A[A[C[C[C[C[C)
+	*n = 98;
+}
