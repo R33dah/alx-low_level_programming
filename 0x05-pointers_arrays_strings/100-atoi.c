@@ -1,28 +1,40 @@
 #include "main.h"
 
 /**
- * _atoi - convert a string to an integer.
- * @s: char type string
- * Description: fn means FirstNum
- * Return: integer converted
+ * _atoi - Convert a string to an integer.
+ * @s: The pointer to convert
+ *
+ * Return: A integer
  */
-
 int _atoi(char *s)
 {
-	int sign = 1, resp = 0, fn, i;
-	for (fn = 0; !(s[fn] >= 48 && s[fn] <= 57); fn++)
+	int c = 0;
+	unsigned int ni = 0;
+	int min = 1;
+	int isi = 0;
+
+	while (s[c])
 	{
-		if (s[fn] == '-')
+		if (s[c] == 45)
 		{
-			sign *= -1;
+			min *= -1;
 		}
+
+		while (s[c] >= 48 && s[c] <= 57)
+		{
+			isi = 1;
+			ni = (ni * 10) + (s[c] - '0');
+			c++;
+		}
+
+		if (isi == 1)
+		{
+			break;
+		}
+
+		c++;
 	}
 
-	for (i = fn; s[i] >= 48 && s[i] <= 57; i++)
-	{
-		resp *= 10;
-		resp += (s[i] - 48);
-	}
-
-	return (sign * resp);
+	ni *= min;
+	return (ni);
 }
