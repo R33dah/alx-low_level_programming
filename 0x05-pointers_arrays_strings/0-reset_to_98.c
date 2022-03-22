@@ -1,9 +1,21 @@
 #include "main.h"
-/* reset_to_98 - function that takes a pointer to an int as parameter
- *and updates the value it points to to 98. */
+
+ *void swap_int(int a, int b);
+
+/**
+ * main - check the code for Holberton School students.
  *
- * @n: number.
-void reset_to_98(int *n)
-[
-*n = 98;
-]
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int a;
+	int b;
+
+	a = 98;
+	b = 42;
+	printf("%d, %d\n", a, b);
+	swap_int(&a, &b);
+	printf("%d, %d\n", a, b);
+	return (0);
+}
