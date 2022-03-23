@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -25,4 +25,4 @@ char *_strcat(char *dest, char *src)
 
 	dest[dlen] = '\0';
 	return (dest);
-}[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[C[D[D[C[Cmain.h"[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[
+}
