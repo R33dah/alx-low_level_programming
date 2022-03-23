@@ -1,13 +1,9 @@
-Write a function that concatenates two strings.
-Write a function that concatenates two strings
-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CWrite a function that concatenates two strings.
-
+[CWrite a function that concatenates two strings.
 Prototype: char *_strcat(char *dest, char *src);
 This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
 Returns a pointer to the resulting string dest
-FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B
+FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.B
 1. Write a function that concatenates two strings.
-
 Prototype: char *_strncat(char *dest, char *src, int n);
 The _strncat function is similar to the _strcat function, except that
 it will use at most n bytes from src; and
@@ -61,7 +57,7 @@ You can only use _putchar function to print
 You are not allowed to use long
 You are not allowed to use arrays or pointers
 You are not allowed to hard-code special values
-10. [B[B[B[B[B[B[B[B[B[B[BAdd one line to this code, so that the program prints a[2] = 98, followed by a new line.
+10. Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
 
 You are not allowed to use the variable a in your new line of code
 You are not allowed to modify the variable p
