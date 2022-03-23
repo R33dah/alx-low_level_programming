@@ -1,5 +1,4 @@
-#include "main"
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.h"
+#include "main.h"
 
 /**
   * leet - Encodes a string into 1337
