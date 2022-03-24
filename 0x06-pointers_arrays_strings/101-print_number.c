@@ -1,5 +1,5 @@
 #include "main.h"
-[A[B#include <stdlib.h>
+#include <stdlib.h>
 
 /**
  * print_number - check the code for Holberton School students.
