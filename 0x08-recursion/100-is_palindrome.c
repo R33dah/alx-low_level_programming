@@ -1,4 +1,4 @@
-[A[B#include "holberton.h"
+#include "main.h"
 
 int check_palindrome(char *s);
 
