@@ -1,4 +1,4 @@
-[1;5s#include "main"[D.h"
+[1;5s#include "main.h"
 
 /**
   * _puts_recursion - Print a string followed by a new line
