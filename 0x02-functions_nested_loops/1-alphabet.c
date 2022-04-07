@@ -1,19 +1,18 @@
 #include "main.h"
-
 /**
- * print_alphabet - function to print alphabet in lower case using holberton.h
- * followed by a new line
- *
- * Return: Void
+ * print_alphabet - Entry point
+ * Return: 0
  */
 
 void print_alphabet(void)
 {
-char a;
+	char c = 'a';
 
-for (a = 'a'; a <= 'z'; a++)
-{
-_putchar(a);
-}
-_putchar('\n');
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
 }
