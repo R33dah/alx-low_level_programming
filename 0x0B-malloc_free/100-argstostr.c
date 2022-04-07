@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -54,4 +52,3 @@ char *argstostr(int ac, char **av)
 	s[k] = '\0';
 	return (s);
 }
->>>>>>> da36a72d903f95608e83056fb5d48bef82ffe0e9
