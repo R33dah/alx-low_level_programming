@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
-  * print_numbers - Print the numbers since 0 up to 9
-  *
-  * Return: The numbers since 0 up to 9
-  */
-void print_numbers(void)
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
+ */
+int mul(int a, int b)
 {
-	int x;
+	int c;
 
-	for (x = 0; x <= 9; x++)
-	{
-		_putchar(x + '0');
-	}
+	c = a * b;
 
-	_putchar('\n');
+	return (c);
 }
