@@ -2,28 +2,22 @@
 
 /**
   * free_listint2 - ...
+  *
   * @head: ...
   *
-  * Return: ...
   */
 void free_listint2(listint_t **head)
 {
-	listint_t *temp;
+	listint_t *tmp, *current;
 
-	if (head)
+	current = *head;
+	while (current != NULL)
 	{
-		while (*head)
-		{
-			temp = (*head);
-			*head = (*head)->next;
-			free(temp);
-		}
-	}
-	else
-	{
-		return;
+		tmp = current->next;
+		free(current);
+		current = tmp;
+	
 	}
 
-	free(*head);
-	head = 0;
+	(*head) = NULL;
 }
