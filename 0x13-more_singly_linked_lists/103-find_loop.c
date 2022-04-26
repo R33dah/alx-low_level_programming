@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "lists.h"
 
 /**
