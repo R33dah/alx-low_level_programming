@@ -1,5 +1,4 @@
-#ifndef _DOUBLEL_H_
-#define _DOUBLEL_H_
+#include "lists.h"
 
 #include <stdio.h>
 #include <stdlib.h>
